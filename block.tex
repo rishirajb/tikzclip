@@ -1,0 +1,111 @@
+% \makeatletter
+% \newlength \figwidth
+% \if
+%   \setlength \figwidth {0.9\columnwidth}
+% \else
+%   \setlength \figwidth {0.5\textwidth}
+% \fi
+% \makeatother
+
+\newcommand{\human}[2]{
+\definecolor{myskin}{named}{#1};
+
+	\tikzset{		myskin/.style=        {color=myskin,top color=myskin!70, bottom color=myskin,shading angle=45}}
+	
+% \node[mexican,minimum size=2.5cm] (M) at (0pt,-250pt) {A
+% Mexican};
+\draw[myskin]
+  (-60.0pt,-60.0pt) .. controls (-56pt,-64pt) and (-53pt,-68pt)..
+  (-40pt,-68pt) .. controls (-40pt,-80pt)  and (-40pt,-90pt)..
+  (-30pt,-110pt) .. controls (0pt,-120pt) and (30pt,-110pt) ..
+  ( 30pt,-110pt) .. controls (40pt,-90pt)  and (40pt,-80pt)..
+  (40pt,-68pt) .. controls (53pt,-68pt) and (56pt,-64pt)..
+  ( 60pt,-60pt) .. controls ( 50pt, 0pt) and (-50pt, 0pt) .. 
+		(-60pt,-60pt) -- cycle;
+ %%%%%%%%%%%% The following lacks proportion%%%%%%%%%%%
+  % \draw[myskin]
+  % (-60.0pt,-60.0pt) .. controls (-56pt,-64pt) and (-53pt,-68pt)..
+  % (-40pt,-68pt) .. controls (-40pt,-80pt)  and (-40pt,-90pt)..
+  % (-30pt,-100pt) .. controls (0pt,-110pt) and (30pt,-100pt) ..
+  % ( 30pt,-100pt) .. controls (40pt,-90pt)  and (40pt,-80pt)..
+  % (40pt,-68pt) .. controls (53pt,-68pt) and (56pt,-64pt)..
+  % ( 60pt,-60pt) .. controls ( 50pt, 0pt) and (-50pt, 0pt) .. 
+		% (-60pt,-60pt) -- cycle;
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+  \draw[myskin] (0pt,0pt) ellipse (30pt and 27pt);
+% \draw[fill=white](0pt,-50pt) ellipse (18pt and 13pt);
+% \clip (0pt,-50pt) ellipse (16pt and 12pt) node {\includegraphics[width=.11\textwidth]{flags/in.png}};
+
+\draw[fill=white](0pt,-65pt) circle (28pt);
+\clip (0pt,-65pt) circle (24pt) node {\includegraphics[width=.04\textwidth]{#2}};
+}
+
+
+%%%%%%%%%%%%%%%% This is for nationals. the badges are scaled with a larger height
+\newcommand{\national}[2]{
+\definecolor{myskin}{named}{#1};
+
+	\tikzset{		myskin/.style=        {color=myskin,top color=myskin!70, bottom color=myskin,shading angle=45}}
+	
+% \node[mexican,minimum size=2.5cm] (M) at (0pt,-250pt) {A
+% Mexican};
+\draw[myskin]
+  (-60.0pt,-60.0pt) .. controls (-56pt,-64pt) and (-53pt,-68pt)..
+  (-40pt,-68pt) .. controls (-40pt,-80pt)  and (-40pt,-90pt)..
+  (-30pt,-110pt) .. controls (0pt,-120pt) and (30pt,-110pt) ..
+  ( 30pt,-110pt) .. controls (40pt,-90pt)  and (40pt,-80pt)..
+  (40pt,-68pt) .. controls (53pt,-68pt) and (56pt,-64pt)..
+  ( 60pt,-60pt) .. controls ( 50pt, 0pt) and (-50pt, 0pt) .. 
+		(-60pt,-60pt) -- cycle;
+ %%%%%%%%%%%% The following lacks proportion%%%%%%%%%%%
+  % \draw[myskin]
+  % (-60.0pt,-60.0pt) .. controls (-56pt,-64pt) and (-53pt,-68pt)..
+  % (-40pt,-68pt) .. controls (-40pt,-80pt)  and (-40pt,-90pt)..
+  % (-30pt,-100pt) .. controls (0pt,-110pt) and (30pt,-100pt) ..
+  % ( 30pt,-100pt) .. controls (40pt,-90pt)  and (40pt,-80pt)..
+  % (40pt,-68pt) .. controls (53pt,-68pt) and (56pt,-64pt)..
+  % ( 60pt,-60pt) .. controls ( 50pt, 0pt) and (-50pt, 0pt) .. 
+		% (-60pt,-60pt) -- cycle;
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+  \draw[myskin] (0pt,0pt) ellipse (30pt and 27pt);
+% \draw[fill=white](0pt,-50pt) ellipse (18pt and 13pt);
+% \clip (0pt,-50pt) ellipse (16pt and 12pt) node {\includegraphics[width=.11\textwidth]{flags/in.png}};
+
+\draw[fill=white](0pt,-60pt) circle (24pt);
+\clip (0pt,-60pt) circle (22pt) node {\includegraphics[width=.07\textwidth]{#2}};
+}
+
+%%%%%%%%%%%%%%%% This is for basic. no badge
+\newcommand{\basic}[1]{
+\definecolor{myskin}{named}{#1};
+
+	\tikzset{		myskin/.style=        {color=myskin,top color=myskin!70, bottom color=myskin,shading angle=45}}
+	
+% \node[mexican,minimum size=2.5cm] (M) at (0pt,-250pt) {A
+% Mexican};
+\draw[myskin]
+  (-60.0pt,-60.0pt) .. controls (-56pt,-64pt) and (-53pt,-68pt)..
+  (-40pt,-68pt) .. controls (-40pt,-80pt)  and (-40pt,-90pt)..
+  (-30pt,-110pt) .. controls (0pt,-120pt) and (30pt,-110pt) ..
+  ( 30pt,-110pt) .. controls (40pt,-90pt)  and (40pt,-80pt)..
+  (40pt,-68pt) .. controls (53pt,-68pt) and (56pt,-64pt)..
+  ( 60pt,-60pt) .. controls ( 50pt, 0pt) and (-50pt, 0pt) .. 
+		(-60pt,-60pt) -- cycle;
+ %%%%%%%%%%%% The following lacks proportion%%%%%%%%%%%
+  % \draw[myskin]
+  % (-60.0pt,-60.0pt) .. controls (-56pt,-64pt) and (-53pt,-68pt)..
+  % (-40pt,-68pt) .. controls (-40pt,-80pt)  and (-40pt,-90pt)..
+  % (-30pt,-100pt) .. controls (0pt,-110pt) and (30pt,-100pt) ..
+  % ( 30pt,-100pt) .. controls (40pt,-90pt)  and (40pt,-80pt)..
+  % (40pt,-68pt) .. controls (53pt,-68pt) and (56pt,-64pt)..
+  % ( 60pt,-60pt) .. controls ( 50pt, 0pt) and (-50pt, 0pt) .. 
+		% (-60pt,-60pt) -- cycle;
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+  \draw[myskin] (0pt,0pt) ellipse (30pt and 27pt);
+% \draw[fill=white](0pt,-50pt) ellipse (18pt and 13pt);
+% \clip (0pt,-50pt) ellipse (16pt and 12pt) node {\includegraphics[width=.11\textwidth]{flags/in.png}};
+}
+
