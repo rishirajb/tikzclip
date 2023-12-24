@@ -14,7 +14,7 @@
 \definecolor{nhs-green}{RGB}{0,103,71}
 \definecolor{nhs-blue}{RGB}{0,94,184}
 \definecolor{jeans}{RGB}{21,96,179}
-\title{(De)-humanizing Clip arts}
+\title{TikzClip: (Re)-humanizing Clip arts}
 \author{Rishiraj Bhattacharyya}
 \date{October 1, 2023}
 \begin{document}
@@ -22,9 +22,10 @@
 \thispagestyle{empty}
 \newpage
 \section{Motivation}
-Modern presentations live on clip arts. Since mid-90s quite a lot of human effort has gone into making clip arts more lively, aiming towards perhaps more realistic slide-designs. TikzPeople~\cite{TikzPeople}, a latex package written in TikZ by a cryptographer colleague, includes amazing designs for shapes of people to depict different characters in slides. The design principle follows the immensely popular type of clip arts included in the Microsoft Visio software. TikzPeople got so popular that it now comes bundled with TexLive.
+Modern presentations live on clip arts. Since mid-90s, quite a lot of human effort has gone into making clip arts more lively, aiming towards more realistic slide designs. TikzPeople~\cite{TikzPeople}, a latex package written in TikZ by a cryptographer colleague, includes amazing designs for shapes of people to depict different characters in slides. The design principle follows the immensely popular type of clip arts included in the Microsoft Visio software. TikzPeople got so popular that it now comes bundled with TexLive.
 
-While preparing for my presentations (in conferences and classroom lectures), I wanted to design EDI-aware slides. While exploring different options in TikzPeople, I noticed the following comments in the documentation (under the option female)~\cite{Manual} 
+While preparing for my lectures and research presentations, I wanted to design EDI-aware slides. While exploring different options in TikzPeople, I noticed the following comments in the documentation (under the option female)~\cite{Manual} 
+
 \begin{verbatim}
    The female option is supposed to make stereotypically male nodes look just tad more 
    feminine. For most tikzpeople this is accomplished by adding longer hair and losing
@@ -34,8 +35,8 @@ While preparing for my presentations (in conferences and classroom lectures), I 
    the other hand people can now accuse you of enforcing gender stereotypes. 
    So have fun.
 \end{verbatim}
-These comments, at the very least, prove the limitations of the design principles used in TikzPeople and perhaps broadly, the design philosophy of the clip arts in the Microsoft Visio software. Indeed the characters are depicted via the \emph{skin colour}, \emph{physical features like hair and beard length and colour} and \emph{professional uniform/national dress}. The mexican node in TikzPeople is a very good example. 
 
+These comments, at the very least, prove the limitations of the design principles used in TikzPeople and, perhaps broadly, the design philosophy of the clip arts in the Microsoft Visio software. The main source of the confusion is the fact that the characters are depicted via the \emph{skin colour}, \emph{physical features like hair and beard length and colour} and \emph{professional uniform/national dress}. The Mexican node in TikzPeople is an excellent example of a stereotypical description.
 \begin{figure}[h]
     \centering
     \begin{tikzpicture}
@@ -44,7 +45,8 @@ These comments, at the very least, prove the limitations of the design principle
     \label{fig:tikzpeople-mexican}
     \caption{ A mexican in TikzPeople}
 \end{figure}
-Such a stereotypical description of any national in any lecture slide is surely improper. I needed to design my own clip arts.
+
+Imagine the conundrum of an attempt to design an Indian or a British node. I needed to design my own clip arts.
 
 
 \section{Tikzclip}
@@ -99,7 +101,7 @@ To represent any professional, the badge could be the tools they use. For exampl
             \human{Tan}{microscope.png}
         \end{scope}
          \begin{scope}[scale=0.5,xshift=5cm]
-            \human{CornflowerBlue}{bike0.png}
+            \human{CornflowerBlue}{cycle1.png}
         \end{scope}
          \begin{scope}[scale=0.5, xshift=10cm]
             \human{OliveGreen}{music2.png}
@@ -119,7 +121,7 @@ Of course, we may pick out some different tool for the badge, by using a differe
             \human{Fuchsia}{chem5.jpeg}
         \end{scope}
          \begin{scope}[scale=0.5,xshift=5cm]
-            \human{YellowOrange}{cycle1.png}
+            \human{YellowOrange}{cycle2.png}
         \end{scope}
          \begin{scope}[scale=0.5, xshift=10cm]
             \human{Maroon}{mic4.png}
@@ -166,10 +168,10 @@ size=1.5cm] (M5) at (180pt,250pt) {};
 \end{scope}
 
 \begin{scope}[scale=0.5,xshift=400pt,yshift=40pt]
-    \human{jeans}{labour.png}
+    \human{RedOrange}{labour.png}
 \end{scope}
 \begin{scope}[scale=0.5,xshift=400pt,yshift=295pt]
-    \human{gray}{chefhat.png}
+    \human{Periwinkle}{chefhat.png}
 \end{scope}
 \begin{scope}[scale=0.5,xshift=400pt,yshift=530pt]
     \human{RawSienna}{plane2.png}
@@ -177,7 +179,7 @@ size=1.5cm] (M5) at (180pt,250pt) {};
 
 \end{tikzpicture}
 \newpage 
-\section{If you want to depict a British Person}
+\section{If you want to depict a British person}
 Choose any colour you want...
 
 \vspace*{2cm}

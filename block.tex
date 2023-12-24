@@ -1,4 +1,12 @@
-% The basic structure of the figure as drawn in \basic is an extension of the structure in Tikzpeople of Nils Fleischhacker and some figure from openclipart. See the references for the link to the tikzpeople package. I could not access the openclipart website due to bad certificate. 
+% \makeatletter
+% \newlength \figwidth
+% \if
+%   \setlength \figwidth {0.9\columnwidth}
+% \else
+%   \setlength \figwidth {0.5\textwidth}
+% \fi
+% \makeatother
+
 \newcommand{\human}[2]{
 \definecolor{myskin}{named}{#1};
 
@@ -65,8 +73,8 @@
 % \draw[fill=white](0pt,-50pt) ellipse (18pt and 13pt);
 % \clip (0pt,-50pt) ellipse (16pt and 12pt) node {\includegraphics[width=.11\textwidth]{flags/in.png}};
 
-\draw[fill=white](0pt,-60pt) circle (24pt);
-\clip (0pt,-60pt) circle (22pt) node {\includegraphics[width=.07\textwidth]{#2}};
+\draw[fill=white](0pt,-65pt) circle (24pt);
+\clip (0pt,-65pt) circle (22pt) node {\includegraphics[width=.07\textwidth]{#2}};
 }
 
 %%%%%%%%%%%%%%%% This is for basic. no badge
