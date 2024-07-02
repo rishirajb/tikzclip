@@ -71,7 +71,25 @@ The basic design is the following abstract figure. As we do not aim to accuratel
     \label{fig:Tikzclip-basic}
    \end{figure}
 
-To represent any national, the idea is to fix a badge with the corresponding national flag. Thus a mexican, using Tikzclip could be depicted as in Figure~\ref{fig:Tikzclip-mexican}.
+\begin{verbatim} 
+\begin{figure}[htb]
+    \centering
+    \begin{tikzpicture}
+        \begin{scope}[scale=0.5]
+            \basic{Tan}
+        \end{scope}
+        \begin{scope}[scale=0.5, xshift=5cm]
+            \basic{CornflowerBlue}
+        \end{scope}
+        \begin{scope}[scale=0.5, xshift=10cm]
+            \basic{OliveGreen}
+        \end{scope}
+    \end{tikzpicture}
+     \caption{ Our Design: The Basic Figures in Different Colors}
+    \label{fig:Tikzclip-basic}
+   \end{figure}
+    \end{verbatim}
+To represent any national (using command national), the idea is to fix a badge with the corresponding national flag. Thus a mexican, using Tikzclip could be depicted as in Figure~\ref{fig:Tikzclip-mexican}.
 
 \begin{figure}[htb]
     \centering
@@ -92,7 +110,29 @@ To represent any national, the idea is to fix a badge with the corresponding nat
  
 \end{figure}
 
-To represent any professional, the badge could be the tools they use. For example, a microscope could be a good badge to depict a scientist, a cycle could be used to depict a cyclist, and musical notations are candidate symbol for singers. 
+\begin{verbatim}
+\begin{figure}[htb]
+    \centering
+    \begin{tikzpicture}
+        \begin{scope}[scale=0.5]
+            \national{Tan}{flags/mx.png}
+        \end{scope}
+         \begin{scope}[scale=0.5,xshift=5cm]
+            \national{CornflowerBlue}{flags/mx.png}
+        \end{scope}
+         \begin{scope}[scale=0.5, xshift=10cm]
+            \national{OliveGreen}{flags/mx.png}
+        \end{scope}
+        
+    \end{tikzpicture}
+       \caption{ Our Design: Mexicans in Tikzclip}
+    \label{fig:Tikzclip-mexican}
+ 
+\end{figure}
+
+\end{verbatim}
+
+To represent any professional, the badge could be the tools they use. For example, a microscope could be a good badge to depict a scientist, a cycle could be used to depict a cyclist, and musical notations are candidate symbol for singers.  The corresponding command here is human. The code is same as in the national except the size of the figure in the badge. You may need to play with xclip to get the solution you want.
 
 \begin{figure}[htb]
     \centering
@@ -112,6 +152,27 @@ To represent any professional, the badge could be the tools they use. For exampl
     \caption{ A scientist, a Cyclist, and a Singer}
 \end{figure}
 
+
+\begin{verbatim}
+\begin{figure}[htb]
+    \centering
+    \begin{tikzpicture}
+        \begin{scope}[scale=0.5]
+            \human{Tan}{microscope.png}
+        \end{scope}
+         \begin{scope}[scale=0.5,xshift=5cm]
+            \human{CornflowerBlue}{cycle1.png}
+        \end{scope}
+         \begin{scope}[scale=0.5, xshift=10cm]
+            \human{OliveGreen}{music2.png}
+        \end{scope}
+        
+    \end{tikzpicture}
+    \label{fig:Tikzclip-profession}
+    \caption{ A scientist, a Cyclist, and a Singer}
+\end{figure}
+
+\end{verbatim}
 Of course, we may pick out some different tool for the badge, by using a different picture.
 
 \begin{figure}[htb]
@@ -131,7 +192,10 @@ Of course, we may pick out some different tool for the badge, by using a differe
     \label{fig:Tikzclip-profession2}
     \caption{ A scientist, a Cyclist, and a Singer}
 \end{figure}
-\section{Source Code}
+\section{Usage}
+The tikz code of the figure is in the file block.tex and/or preamble.tex. If you want to use specific colour, see dp.tex for how to specify the colours in rgb. I have lifted and modified the basic structure of the figures in tikzpeople. So, latex credit goes to Neil.
+
+
 Source code of the Tikzclip project is available at \url{https://github.com/rishirajb/tikzclip}. Please feel free to modify and use.  
   \printbibliography
 \newpage

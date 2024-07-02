@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.15)  25 DEC 2023 14:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.15)  2 JUL 2024 13:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -814,9 +814,8 @@ Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
 \openout4 = `main.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'main.bbl' not found.
-
-No file main.bbl.
+Package biblatex Info: ... file 'main.bbl' found.
+ (./main.bbl)
 Package biblatex Info: Reference section=0 on input line 20.
 Package biblatex Info: Reference segment=0 on input line 20.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -825,81 +824,79 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 21.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 21.
-[1
+ [1
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-
-LaTeX Warning: Citation 'TikzPeople' on page 2 undefined on input line 25.
-
-
-LaTeX Warning: Citation 'Manual' on page 2 undefined on input line 27.
-
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
+ [2]
 Missing character: There is no ; in font nullfont!
-<flags/mx.png, id=33, 2569.6pt x 1468.48625pt>
+<flags/mx.png, id=40, 2569.6pt x 1468.48625pt>
 File: flags/mx.png Graphic file (type png)
 <use flags/mx.png>
-Package pdftex.def Info: flags/mx.png  used on input line 80.
+Package pdftex.def Info: flags/mx.png  used on input line 98.
 (pdftex.def)             Requested size: 31.71106pt x 18.10507pt.
 Missing character: There is no ; in font nullfont!
 File: flags/mx.png Graphic file (type png)
 <use flags/mx.png>
-Package pdftex.def Info: flags/mx.png  used on input line 83.
+Package pdftex.def Info: flags/mx.png  used on input line 101.
 (pdftex.def)             Requested size: 31.71106pt x 18.10507pt.
 Missing character: There is no ; in font nullfont!
 File: flags/mx.png Graphic file (type png)
 <use flags/mx.png>
-Package pdftex.def Info: flags/mx.png  used on input line 86.
+Package pdftex.def Info: flags/mx.png  used on input line 104.
 (pdftex.def)             Requested size: 31.71106pt x 18.10507pt.
-[2]
 Missing character: There is no ; in font nullfont!
-<microscope.png, id=42, 256.96pt x 256.96pt>
+<microscope.png, id=41, 256.96pt x 256.96pt>
 File: microscope.png Graphic file (type png)
 <use microscope.png>
-Package pdftex.def Info: microscope.png  used on input line 101.
+Package pdftex.def Info: microscope.png  used on input line 141.
 (pdftex.def)             Requested size: 18.11566pt x 18.1145pt.
 Missing character: There is no ; in font nullfont!
-<cycle1.png, id=44, 1518.8745pt x 980.463pt>
+<cycle1.png, id=43, 1518.8745pt x 980.463pt>
 File: cycle1.png Graphic file (type png)
 <use cycle1.png>
-Package pdftex.def Info: cycle1.png  used on input line 104.
+Package pdftex.def Info: cycle1.png  used on input line 144.
 (pdftex.def)             Requested size: 18.11566pt x 11.68425pt.
 Missing character: There is no ; in font nullfont!
-<music2.png, id=45, 1284.8pt x 1264.725pt>
+<music2.png, id=44, 1284.8pt x 1264.725pt>
 File: music2.png Graphic file (type png)
 <use music2.png>
-Package pdftex.def Info: music2.png  used on input line 107.
+Package pdftex.def Info: music2.png  used on input line 147.
 (pdftex.def)             Requested size: 18.11566pt x 17.83147pt.
+ [3 <./flags/mx.png>]
 Missing character: There is no ; in font nullfont!
-<chem5.jpeg, id=48, 903.375pt x 903.375pt>
+<chem5.jpeg, id=51, 903.375pt x 903.375pt>
 File: chem5.jpeg Graphic file (type jpg)
 <use chem5.jpeg>
-Package pdftex.def Info: chem5.jpeg  used on input line 121.
+Package pdftex.def Info: chem5.jpeg  used on input line 182.
 (pdftex.def)             Requested size: 18.11566pt x 18.11266pt.
 Missing character: There is no ; in font nullfont!
-<cycle2.png, id=51, 1259.907pt x 703.428pt>
+<cycle2.png, id=54, 1259.907pt x 703.428pt>
 File: cycle2.png Graphic file (type png)
 <use cycle2.png>
-Package pdftex.def Info: cycle2.png  used on input line 124.
+Package pdftex.def Info: cycle2.png  used on input line 185.
 (pdftex.def)             Requested size: 18.11566pt x 10.11089pt.
 Missing character: There is no ; in font nullfont!
-<mic4.png, id=54, 180.675pt x 180.675pt>
+<mic4.png, id=57, 180.675pt x 180.675pt>
 File: mic4.png Graphic file (type png)
 <use mic4.png>
-Package pdftex.def Info: mic4.png  used on input line 127.
+Package pdftex.def Info: mic4.png  used on input line 188.
 (pdftex.def)             Requested size: 18.11566pt x 18.11542pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 135.
+(Font)              <7> on input line 199.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 135.
+(Font)              <5> on input line 199.
 
+Overfull \hbox (0.66042pt too wide) in paragraph at lines 199--201
+[]\OT1/cmr/m/n/10 Source code of the Tikz-clip project is avail-able at $\OT1/c
+mtt/m/n/10 https : / / github . com / rishirajb / tikzclip$\OT1/cmr/m/n/10 . Pl
+ease
+ []
 
-LaTeX Warning: Empty bibliography on input line 136.
-
-[3 <./flags/mx.png> <./microscope.png> <./cycle1.png> <./music2.png> <./chem5.j
-peg> <./cycle2.png> <./mic4.png>]
+[4 <./microscope.png> <./cycle1.png> <./music2.png> <./chem5.jpeg> <./cycle2.pn
+g> <./mic4.png>]
 Missing character: There is no * in font nullfont!
 Missing character: There is no 4 in font nullfont!
 Missing character: There is no . in font nullfont!
@@ -911,134 +908,127 @@ Missing character: There is no 4 in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no ; in font nullfont!
-<doctor2.png, id=94, 748.7975pt x 803.0pt>
+<doctor2.png, id=97, 748.7975pt x 803.0pt>
 File: doctor2.png Graphic file (type png)
 <use doctor2.png>
-Package pdftex.def Info: doctor2.png  used on input line 163.
+Package pdftex.def Info: doctor2.png  used on input line 227.
 (pdftex.def)             Requested size: 18.11566pt x 19.42064pt.
 Missing character: There is no ; in font nullfont!
-<nurse.png, id=97, 513.92pt x 513.92pt>
+<nurse.png, id=100, 513.92pt x 513.92pt>
 File: nurse.png Graphic file (type png)
 <use nurse.png>
-Package pdftex.def Info: nurse.png  used on input line 167.
+Package pdftex.def Info: nurse.png  used on input line 231.
 (pdftex.def)             Requested size: 18.11566pt x 18.1145pt.
 Missing character: There is no ; in font nullfont!
-<labour.png, id=100, 401.5pt x 401.5pt>
+<labour.png, id=103, 401.5pt x 401.5pt>
 File: labour.png Graphic file (type png)
 <use labour.png>
-Package pdftex.def Info: labour.png  used on input line 171.
+Package pdftex.def Info: labour.png  used on input line 235.
 (pdftex.def)             Requested size: 18.11566pt x 18.1096pt.
 Missing character: There is no ; in font nullfont!
-<chefhat.png, id=103, 399.4925pt x 346.29375pt>
+<chefhat.png, id=106, 399.4925pt x 346.29375pt>
 File: chefhat.png Graphic file (type png)
 <use chefhat.png>
-Package pdftex.def Info: chefhat.png  used on input line 174.
+Package pdftex.def Info: chefhat.png  used on input line 238.
 (pdftex.def)             Requested size: 18.11566pt x 15.69879pt.
 Missing character: There is no ; in font nullfont!
-<plane2.png, id=106, 1927.2pt x 1090.0725pt>
+<plane2.png, id=109, 1927.2pt x 1090.0725pt>
 File: plane2.png Graphic file (type png)
 <use plane2.png>
-Package pdftex.def Info: plane2.png  used on input line 177.
+Package pdftex.def Info: plane2.png  used on input line 241.
 (pdftex.def)             Requested size: 18.11566pt x 10.24602pt.
 
-Overfull \hbox (1.6943pt too wide) in paragraph at lines 180--181
+Overfull \hbox (1.6943pt too wide) in paragraph at lines 244--245
 [][] 
  []
 
-[4 <./doctor2.png> <./nurse.png> <./labour.png> <./chefhat.png> <./plane2.png>]
+[5 <./doctor2.png> <./nurse.png> <./labour.png> <./chefhat.png> <./plane2.png>]
 Missing character: There is no ; in font nullfont!
-<flags/gb.png, id=115, 258.10715pt x 153.57375pt>
+<flags/gb.png, id=119, 258.10715pt x 153.57375pt>
 File: flags/gb.png Graphic file (type png)
 <use flags/gb.png>
-Package pdftex.def Info: flags/gb.png  used on input line 188.
+Package pdftex.def Info: flags/gb.png  used on input line 252.
 (pdftex.def)             Requested size: 31.71106pt x 18.86626pt.
 Missing character: There is no ; in font nullfont!
 File: flags/gb.png Graphic file (type png)
 <use flags/gb.png>
-Package pdftex.def Info: flags/gb.png  used on input line 191.
+Package pdftex.def Info: flags/gb.png  used on input line 255.
 (pdftex.def)             Requested size: 31.71106pt x 18.86626pt.
 Missing character: There is no ; in font nullfont!
 File: flags/gb.png Graphic file (type png)
 <use flags/gb.png>
-Package pdftex.def Info: flags/gb.png  used on input line 194.
+Package pdftex.def Info: flags/gb.png  used on input line 258.
 (pdftex.def)             Requested size: 31.71106pt x 18.86626pt.
 Missing character: There is no ; in font nullfont!
 File: flags/gb.png Graphic file (type png)
 <use flags/gb.png>
-Package pdftex.def Info: flags/gb.png  used on input line 197.
+Package pdftex.def Info: flags/gb.png  used on input line 261.
 (pdftex.def)             Requested size: 31.71106pt x 18.86626pt.
 Missing character: There is no ; in font nullfont!
 File: flags/gb.png Graphic file (type png)
 <use flags/gb.png>
-Package pdftex.def Info: flags/gb.png  used on input line 201.
+Package pdftex.def Info: flags/gb.png  used on input line 265.
 (pdftex.def)             Requested size: 31.71106pt x 18.86626pt.
 Missing character: There is no ; in font nullfont!
 File: flags/gb.png Graphic file (type png)
 <use flags/gb.png>
-Package pdftex.def Info: flags/gb.png  used on input line 204.
+Package pdftex.def Info: flags/gb.png  used on input line 268.
 (pdftex.def)             Requested size: 31.71106pt x 18.86626pt.
 Missing character: There is no ; in font nullfont!
 File: flags/gb.png Graphic file (type png)
 <use flags/gb.png>
-Package pdftex.def Info: flags/gb.png  used on input line 207.
+Package pdftex.def Info: flags/gb.png  used on input line 271.
 (pdftex.def)             Requested size: 31.71106pt x 18.86626pt.
 Missing character: There is no ; in font nullfont!
 File: flags/gb.png Graphic file (type png)
 <use flags/gb.png>
-Package pdftex.def Info: flags/gb.png  used on input line 210.
+Package pdftex.def Info: flags/gb.png  used on input line 274.
 (pdftex.def)             Requested size: 31.71106pt x 18.86626pt.
 Missing character: There is no ; in font nullfont!
 File: flags/gb.png Graphic file (type png)
 <use flags/gb.png>
-Package pdftex.def Info: flags/gb.png  used on input line 213.
+Package pdftex.def Info: flags/gb.png  used on input line 277.
 (pdftex.def)             Requested size: 31.71106pt x 18.86626pt.
 Missing character: There is no ; in font nullfont!
 File: flags/gb.png Graphic file (type png)
 <use flags/gb.png>
-Package pdftex.def Info: flags/gb.png  used on input line 216.
+Package pdftex.def Info: flags/gb.png  used on input line 280.
 (pdftex.def)             Requested size: 31.71106pt x 18.86626pt.
 Missing character: There is no ; in font nullfont!
 File: flags/gb.png Graphic file (type png)
 <use flags/gb.png>
-Package pdftex.def Info: flags/gb.png  used on input line 219.
+Package pdftex.def Info: flags/gb.png  used on input line 283.
 (pdftex.def)             Requested size: 31.71106pt x 18.86626pt.
 Missing character: There is no ; in font nullfont!
 File: flags/gb.png Graphic file (type png)
 <use flags/gb.png>
-Package pdftex.def Info: flags/gb.png  used on input line 222.
+Package pdftex.def Info: flags/gb.png  used on input line 286.
 (pdftex.def)             Requested size: 31.71106pt x 18.86626pt.
-[5 <./flags/gb.png>] (./main.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
-
+[6 <./flags/gb.png>] (./main.aux)
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 22764 strings out of 478994
- 481413 string characters out of 5858184
- 1235076 words of memory out of 5000000
- 39816 multiletter control sequences out of 15000+600000
- 407892 words of font info for 42 fonts, out of 8000000 for 9000
+ 22790 strings out of 478994
+ 482019 string characters out of 5858184
+ 1235153 words of memory out of 5000000
+ 39839 multiletter control sequences out of 15000+600000
+ 408193 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 113i,9n,116p,737b,1212s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 113i,9n,116p,737b,1250s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
 </usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
 usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
 r/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/
 local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/l
 ocal/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (5 pages, 1256546 bytes).
+Output written on main.pdf (6 pages, 1271372 bytes).
 PDF statistics:
- 163 PDF objects out of 1000 (max. 8388607)
- 80 compressed objects within 1 object stream
+ 170 PDF objects out of 1000 (max. 8388607)
+ 85 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  336 words of extra memory for PDF output out of 10000 (max. 10000000)
 
